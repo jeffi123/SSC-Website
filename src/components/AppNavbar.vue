@@ -36,62 +36,130 @@ export default defineComponent({
 <template>
 <i-navbar>
     <i-navbar-brand to="/">
-        <img v-if="colorMode === 'dark'" src="../assets/Logo-White.svg" style="width: 70px; height: 70px" >
-        <img v-else src="../assets/Logo-Black.svg" style="width: 70px; height: 70px" >
+        <img src="../assets/Logo-White.svg" class="logo -white" style="width: 80px; height: 80px" >
+        <img src="../assets/Logo-Black.svg" class="logo -black" style="width: 80px; height: 80px" >
     </i-navbar-brand>
     <i-navbar-collapsible>
         <i-nav>
             <i-nav-item to="/">
                 Home
             </i-nav-item>
-            <i-nav-item to="/about">
-                About
+            <i-nav-item to="/search">
+                Search
             </i-nav-item>
             <i-nav-item to="/contact">
                 Contact
             </i-nav-item>
-						<i-nav-item @click="toggleColorMode" >
+          </i-nav>
+
+    </i-navbar-collapsible>
+    <i-navbar-collapsible class="_justify-content:end">
+      <i-nav>
+      <i-nav-item @click="toggleColorMode" >
 								<icons-fas-moon v-if="colorMode === 'light'" size="20px"/>
 								<icons-fas-sun v-else size="20px"/>
-						</i-nav-item>
-        </i-nav>
-        <i-input placeholder="Type something..">
-            <template #append>
-                <i-button color="primary">
-                    <i-icon name="ink-search" />
-                </i-button>
-            </template>
-        </i-input>
+      </i-nav-item>
+
+      <i-nav-item to="/login">
+          <icons-fas-circle-user size="20px" />
+      </i-nav-item>
+
+      </i-nav>
+        <!-- <i-input placeholder="Type something.."> -->
+        <!--     <template #append> -->
+        <!--         <i-button color="primary"> -->
+        <!--             <i-icon name="ink-search" /> -->
+        <!--         </i-button> -->
+        <!--     </template> -->
+        <!-- </i-input> -->
     </i-navbar-collapsible>
 </i-navbar>
 
 </template>
 
-<!-- <style > -->
-<!-- @import '@inkline/inkline/css/mixins'; -->
-<!-- .navbar { -->
-<!--     --navbar--light--background: var(--color-white); -->
-<!--     --navbar--light--item--background: var(--color-white); -->
-<!--     --navbar--light--item--hover--background: var(--color-light); -->
-<!--     --navbar--light--collapsed--background: transparent; -->
-<!---->
-<!--     --navbar--dark--collapsed--background: transparent; -->
-<!---->
-<!--     @include breakpoint-down('md') { -->
-<!--         .nav.navbar-icons { -->
-<!--             display: flex; -->
-<!--             flex-direction: row; -->
-<!--             justify-content: space-between; -->
-<!--             margin-top: var(--margin-top); -->
-<!--             margin-bottom: var(--margin-bottom); -->
-<!--             .nav-item { -->
-<!--                 width: auto; -->
-<!--             } -->
-<!--         } -->
-<!--         .button { -->
-<!--             margin-left: 0; -->
-<!--             width: 100%; -->
-<!--         } -->
-<!--     } -->
-<!-- } -->
-<!-- </style> -->
+<style lang="scss">
+
+@import '@inkline/inkline/css/variables';
+@import '@inkline/inkline/css/mixins';
+
+@include i-navbar() {
+    ----border-radius: 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 999;
+    transition-duration: var(--transition-duration);
+    transition-timing-function: var(--transition-easing);
+    transition-property: background-color;
+    border-top: 0;
+    border-left: 0;
+    border-right: 0;
+    .logo {
+        height: 24px;
+        width: auto;
+        margin-right: spacing('1/2');
+    }
+    .nav {
+        .nav-item {
+            ----border-radius: var(--border-radius);
+            background: transparent;
+            cursor: pointer;
+            display: inline-flex;
+        }
+    }
+    #navbar-item-docsearch {
+        padding-top: 0;
+        padding-bottom: 0;
+    }
+    /**
+     * Color variants
+     */
+    @include variant('light') {
+        ----background: var(--color--white);
+        ----border-bottom-color: var(--color--gray-10);
+        .logo.-white {
+            display: none;
+        }
+    }
+    @include variant('dark') {
+        .logo.-black {
+            display: none;
+        }
+    }
+    /**
+     * Responsive design
+     */
+    @media screen and (max-width: 360px) {
+        .navbar-brand {
+            margin-right: 0;
+            img {
+                margin-right: 0;
+            }
+            span {
+                display: none;
+            }
+        }
+    }
+    @include breakpoint-down('xs') {
+        #navbar-item-documentation {
+            span:first-child {
+                display: inline-block;
+            }
+            span:last-child {
+                display: none;
+            }
+        }
+    }
+    @include breakpoint-up('sm') {
+        #navbar-item-documentation {
+            span:first-child {
+                display: none;
+            }
+            span:last-child {
+                display: inline-block;
+            }
+        }
+    }
+}
+</style>
