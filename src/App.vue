@@ -1,14 +1,10 @@
 <script setup>
-import { RouterLink, RouterView } from 'vue-router'
-import HelloWorld from './components/HelloWorld.vue'
-import AppNavbar from './components/AppNavbar.vue'
-
+import { RouterLink, RouterView } from "vue-router";
+import HelloWorld from "./components/HelloWorld.vue";
+import AppNavbar from "./components/AppNavbar.vue";
 </script>
 
 <template>
-  
-
-
   <header>
     <div class="wrapper">
       <AppNavbar />
