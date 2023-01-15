@@ -47,18 +47,18 @@ export default defineComponent({
     <i-navbar-collapsible>
       <i-nav>
         <!-- <i-nav-item to="/"> Home </i-nav-item> -->
-        <i-nav-item class="big-item" to="/search"> Search </i-nav-item>
-        <i-nav-item class="big-item" to="/contact"> Contact </i-nav-item>
+        <i-nav-item  to="/search" style="padding-top: 0.5rem; padding-bottom: 0.5rem;"> Search </i-nav-item>
+        <i-nav-item  to="/contact" style="padding-top: 0.5rem; padding-bottom: 0.5rem;"> Contact </i-nav-item>
       </i-nav>
     </i-navbar-collapsible>
     <i-navbar-collapsible class="_justify-content:end">
       <i-nav>
-        <i-nav-item class="big-item" @click="toggleColorMode">
+        <i-nav-item  @click="toggleColorMode" style="padding-top: 1rem; padding-bottom: 1rem;">
           <icons-fas-moon v-if="colorMode === 'light'" size="20px" />
           <icons-fas-sun v-else size="20px" />
         </i-nav-item>
 
-        <i-nav-item class="big-item" to="/login">
+        <i-nav-item  to="/login" style="padding-top: 1rem; padding-bottom: 1rem;">
           <icons-fas-circle-user size="20px" />
         </i-nav-item>
       </i-nav>
@@ -157,4 +157,5 @@ export default defineComponent({
     }
   }
 }
+
 </style>

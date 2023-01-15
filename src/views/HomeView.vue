@@ -2,19 +2,104 @@
 
 <template>
   <main>
-  <article>    
-    <h1>
-      Welcome to <br />
-      the foremost database of  <br />
-      the Indus Valley script. <br />
-    </h1>
-    <h2>
-      <div class="indus_text">
-        &#xE000; 
-&#xE001; &#xE002; &#xE003; &#xE004; &#xE005; &#xE006; &#xE007; &#xE008; &#xE009; &#xE010; &#xE011; &#xE012; &#xE013; &#xE014; &#xE015; &#xE016; &#xE017; &#xE018; &#xE019; &#xE020; &#xE021; &#xE022; &#xE023; &#xE024; &#xE025; &#xE026; &#xE027; &#xE028; &#xE029; &#xE030; &#xE031; &#xE032; &#xE033; &#xE034; &#xE035; &#xE036; &#xE037; &#xE038; &#xE039; &#xE040; &#xE041; &#xE042; &#xE043; &#xE044; &#xE045; &#xE046; &#xE047; &#xE048; &#xE049; &#xE050; &#xE051; &#xE052; &#xE053; &#xE054; &#xE055; &#xE056; &#xE057; &#xE058; &#xE059; &#xE060; &#xE061; &#xE062; &#xE063; &#xE064; &#xE065; &#xE066; &#xE067; &#xE068; &#xE069; &#xE070; &#xE071; &#xE072; &#xE073; &#xE074; &#xE075; &#xE076; &#xE077; &#xE078; &#xE079; &#xE080; &#xE081; &#xE082; &#xE083; &#xE084; &#xE085; &#xE086; &#xE087; &#xE088; &#xE089; &#xE090; &#xE091; &#xE092; &#xE093; &#xE094; &#xE095; &#xE096; &#xE097; &#xE098; &#xE099; &#xE100; &#xE101; &#xE102; &#xE103; &#xE104; &#xE105; &#xE106; &#xE107; &#xE108; &#xE109; &#xE110; &#xE111; &#xE112; &#xE113; &#xE114; &#xE115; &#xE116; &#xE117; &#xE118; &#xE119; &#xE120; &#xE121; &#xE122; &#xE123; &#xE124; &#xE125; &#xE126; &#xE127; &#xE128; &#xE129; &#xE130; &#xE131; &#xE132; &#xE133; &#xE134; &#xE135; &#xE136; &#xE137; &#xE138; &#xE139; &#xE140; &#xE141; &#xE142; &#xE143; &#xE144; &#xE145; &#xE146; &#xE147; &#xE148; &#xE149; &#xE150; &#xE151; &#xE152; &#xE153; &#xE154; &#xE155; &#xE156; &#xE157; &#xE158; &#xE159; &#xE160; &#xE161; &#xE162; &#xE163; &#xE164; &#xE165; &#xE166; &#xE167; &#xE168; &#xE169; &#xE170; &#xE171; &#xE172; &#xE173; &#xE174; &#xE175; &#xE176; &#xE177; &#xE178; &#xE179; &#xE180; &#xE181; &#xE182; &#xE183; &#xE184; &#xE185; &#xE186; &#xE187; &#xE188; &#xE189; &#xE190; &#xE191; &#xE192; &#xE193; &#xE194; &#xE195; &#xE196; &#xE197; &#xE198; &#xE199; &#xE200; &#xE201; &#xE202; &#xE203; &#xE204; &#xE205; &#xE206; &#xE207; &#xE208; &#xE209; &#xE210; &#xE211; &#xE212; &#xE213; &#xE214; &#xE215; &#xE216; &#xE217; &#xE218; &#xE219; &#xE220; &#xE221; &#xE222; &#xE223; &#xE224; &#xE225; &#xE226; &#xE227; &#xE228; &#xE229; &#xE230; &#xE231; &#xE232; &#xE233; &#xE234; &#xE235; &#xE236; &#xE237; &#xE238; &#xE239; &#xE240; &#xE241; &#xE242; &#xE243; &#xE244; &#xE245; &#xE246; &#xE247; &#xE248; &#xE249; &#xE250; &#xE251; &#xE252; &#xE253; &#xE254; &#xE255; &#xE256; &#xE257; &#xE258; &#xE259; &#xE260; &#xE261; &#xE262; &#xE263; &#xE264; &#xE265; &#xE266; &#xE267; &#xE268; &#xE269; &#xE270; &#xE271; &#xE272; &#xE273; &#xE274; &#xE275; &#xE276; &#xE277; &#xE278; &#xE279; &#xE280; &#xE281; &#xE282; &#xE283; &#xE284; &#xE285; &#xE286; &#xE287; &#xE288; &#xE289; &#xE290; &#xE291; &#xE292; &#xE293; &#xE294; &#xE295; &#xE296; &#xE297; &#xE298; &#xE299; &#xE300; &#xE301; &#xE302; &#xE303; &#xE304; &#xE305; &#xE306; &#xE307; &#xE308; &#xE309; &#xE310; &#xE311; &#xE312; &#xE313; &#xE314; &#xE315; &#xE316; &#xE317; &#xE318; &#xE319; &#xE320; &#xE321; &#xE322; &#xE323; &#xE324; &#xE325; &#xE326; &#xE327; &#xE328; &#xE329; &#xE330; &#xE331; &#xE332; &#xE333; &#xE334; &#xE335; &#xE336; &#xE337; &#xE338; &#xE339; &#xE340; &#xE341; &#xE342; &#xE343; &#xE344; &#xE345; &#xE346; &#xE347; &#xE348; &#xE349; &#xE350; &#xE351; &#xE352; &#xE353; &#xE354; &#xE355; &#xE356; &#xE357; &#xE358; &#xE359; &#xE360; &#xE361; &#xE362; &#xE363; &#xE364; &#xE365; &#xE366; &#xE367; &#xE368; &#xE369; &#xE370; &#xE371; &#xE372; &#xE373; &#xE374; &#xE375; &#xE376; &#xE377; &#xE378; &#xE379; &#xE380; &#xE381; &#xE382; &#xE383; &#xE384; &#xE385; &#xE386; &#xE387; &#xE388; &#xE389; &#xE390; &#xE391; &#xE392; &#xE393; &#xE394; &#xE395; &#xE396; &#xE397; &#xE398; &#xE399; &#xE400; &#xE401; &#xE402; &#xE403; &#xE404; &#xE405; &#xE406; &#xE407; &#xE408; &#xE409; &#xE410; &#xE411; &#xE412; &#xE413; &#xE414; &#xE415; &#xE416; &#xE417; &#xE418; &#xE419; &#xE420; &#xE421; &#xE422; &#xE423; &#xE424; &#xE425; &#xE426; &#xE427; &#xE428; &#xE429; &#xE430; &#xE431; &#xE432; &#xE433; &#xE434; &#xE435; &#xE436; &#xE437; &#xE438; &#xE439; &#xE440; &#xE441; &#xE442; &#xE443; &#xE444; &#xE445; &#xE446; &#xE447; &#xE448; &#xE449; &#xE450; &#xE451; &#xE452; &#xE453; &#xE454; &#xE455; &#xE456; &#xE457; &#xE458; &#xE459; &#xE460; &#xE461; &#xE462; &#xE463; &#xE464; &#xE465; &#xE466; &#xE467; &#xE468; &#xE469; &#xE470; &#xE471; &#xE472; &#xE473; &#xE474; &#xE475; &#xE476; &#xE477; &#xE478; &#xE479; &#xE480; &#xE481; &#xE482; &#xE483; &#xE484; &#xE485; &#xE486; &#xE487; &#xE488; &#xE489; &#xE490; &#xE491; &#xE492; &#xE493; &#xE494; &#xE495; &#xE496; &#xE497; &#xE498; &#xE499; &#xE500; &#xE501; &#xE502; &#xE503; &#xE504; &#xE505; &#xE506; &#xE507; &#xE508; &#xE509; &#xE510; &#xE511; &#xE512; &#xE513; &#xE514; &#xE515; &#xE516; &#xE517; &#xE518; &#xE519; &#xE520; &#xE521; &#xE522; &#xE523; &#xE524; &#xE525; &#xE526; &#xE527; &#xE528; &#xE529; &#xE530; &#xE531; &#xE532; &#xE533; &#xE534; &#xE535; &#xE536; &#xE537; &#xE538; &#xE539; &#xE540; &#xE541; &#xE542; &#xE543; &#xE544; &#xE545; &#xE546; &#xE547; &#xE548; &#xE549; &#xE550; &#xE551; &#xE552; &#xE553; &#xE554; &#xE555; &#xE556; &#xE557; &#xE558; &#xE559; &#xE560; &#xE561; &#xE562; &#xE563; &#xE564; &#xE565; &#xE566; &#xE567; &#xE568; &#xE569; &#xE570; &#xE571; &#xE572; &#xE573; &#xE574; &#xE575; &#xE576; &#xE577; &#xE578; &#xE579; &#xE580; &#xE581; &#xE582; &#xE583; &#xE584; &#xE585; &#xE586; &#xE587; &#xE588; &#xE589; &#xE590; &#xE591; &#xE592; &#xE593; &#xE594; &#xE595; &#xE596; &#xE597; &#xE598; &#xE599; &#xE600; &#xE601; &#xE602; &#xE603; &#xE604; &#xE605; &#xE606; &#xE607; &#xE608; &#xE609; &#xE610; &#xE611; &#xE612; &#xE613; &#xE614; &#xE615; &#xE616; &#xE617; &#xE618; &#xE619; &#xE620; &#xE621; &#xE622; &#xE623; &#xE624; &#xE625; &#xE626; &#xE627; &#xE628; &#xE629; &#xE630; &#xE631; &#xE632; &#xE633; &#xE634; &#xE635; &#xE636; &#xE637; &#xE638; &#xE639; &#xE640; &#xE641; &#xE642; &#xE643; &#xE644; &#xE645; &#xE646; &#xE647; &#xE648; &#xE649; &#xE650; &#xE651; &#xE652; &#xE653; &#xE654; &#xE655; &#xE656; &#xE657; &#xE658; &#xE659; &#xE660; &#xE661; &#xE662; &#xE663; &#xE664; &#xE665; &#xE666; &#xE667; &#xE668; &#xE669; &#xE670; &#xE671; &#xE672; &#xE673; &#xE674; &#xE675; &#xE676; &#xE677; &#xE678; &#xE679; &#xE680; &#xE681; &#xE682; &#xE683; &#xE684; &#xE685; &#xE686; &#xE687; &#xE688; &#xE689; &#xE690; &#xE691; &#xE692; &#xE693; &#xE694; &#xE695; &#xE696; &#xE697; &#xE698; &#xE699; &#xE700; &#xE701; &#xE702; &#xE703; &#xE704; &#xE705; &#xE706; &#xE707; &#xE708; &#xE709; &#xE710; &#xE711; &#xE712; &#xE713; &#xE714; &#xE715; &#xE716; &#xE717; &#xE718; &#xE719; &#xE720; &#xE721; &#xE722; &#xE723; &#xE724; &#xE725; &#xE726; &#xE727; &#xE728; &#xE729;
+    <div style="display: inline; padding-top: 3rem">
+      <div style="display: inline-block; float: left; margin-left: 20%">
+        <h1>
+          Welcome to <br />
+          the foremost database of <br />
+          the Indus script. <br />
+        </h1>
       </div>
-    </h2>
-  </article>
+      <div
+        style="
+          display: inline-block;
+          float: right;
+          text-justify: right;
+          text-align: right;
+          margin-right: 20%;
+        "
+      >
+        <h1 class="indus_title">
+          &#xE640; &#xE442; &#xE3EA; &#xE559; &#xE199; <br />
+          &#xE22A; &#xE199; &#xE302; &#xE402; &#xE4EA; <br />
+          &#xE47D; &#xE22A; &#xE566; &#xE248; &#xE464; &#xE542; &#xE37D;
+          &#xE429; &#xE248; &#xE199; <br />
+        </h1>
+      </div>
+    </div>
+
+    <div style="clear: both"></div>
+
+    <div
+      style="
+        float: right;
+        text-justify: right;
+        text-align: right;
+        margin-right: 20%;
+      "
+    >
+      <caption>
+        (Based on decipherment efforts by
+        <a
+          href="https://www.academia.edu/78867798/Deciphering_Indus_script_as_a_cryptogram"
+          >Yajnadevam</a
+        >)
+      </caption>
+    </div>
+
+    <article>
+      <p class="lead">
+        The Indus Script is a currently undeciphered script, that is mainly
+        found in archaeological sites located in modern-day India and Pakistan,
+        dating from 3500BCE to 1900BCE. It is also found in faraway places like
+        modern-day Iraq, Israel and Bahrain.
+      </p>
+      <p>
+        The following factors are usually regarded as the biggest obstacles to
+        successful decipherment:
+      </p>
+      <ul>
+        <li>
+          <p>
+            Inscriptions are very short. The average length of the inscriptions
+            is around five signs, and the longest only 34 characters long, found
+            on a copper plate belonging to the mature Harappan period.
+            Inscriptions vary between just one and seven lines, with single
+            lines being most common.
+          </p>
+        </li>
+        <li>
+          <p>
+            There are doubts whether the Indus script records a written language
+            or is instead a system of non-linguistic signs or proto-writing
+            similar to merchant's marks and house marks, and to the contemporary
+            accounting tokens and numerical clay tablets of Mesopotamia. Due to
+            the brevity of inscriptions, some researchers have questioned
+            whether Indus symbols are even capable of expressing a spoken
+            language.
+          </p>
+        </li>
+        <li>
+          <p>
+            The spoken Harappan language has not been identified, so, assuming
+            it is a written language, the language the script is most likely to
+            express is unknown. Some theorise that the language is Sanskrit, as
+            it is the only well-attested language in northern India, however,
+            this is a controversial view.
+          </p>
+        </li>
+      </ul>
+      <p>
+        However, a recent potential decipherment by the Yajnadevam (a
+        pseudonym), using Sanskrit. In this website, we contain some of his
+        decipherments, along with the associated inscription.
+      </p>
+      <p>
+        This website serves to catalog all currently available Indus
+        inscriptions. It provides a convenient means of analysing of all
+        characters and glyphs, in one location, that is available to all.
+      </p>
+    </article>
   </main>
 </template>
 
@@ -22,13 +107,15 @@
 @import "@inkline/inkline/css/variables";
 @import "@inkline/inkline/css/mixins";
 
-
 article {
-  margin-left: 10rem;
-  margin-right: 10rem;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 5rem;
+  margin-bottom: 4rem;
 }
 
-.indus_text {
+.indus_title {
   font-family: indus;
+  font-size: 2.5em;
 }
 </style>
